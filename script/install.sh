@@ -28,7 +28,7 @@ fi
 xiiapp
 Minfo(){
   CPU=$(uname -a)
-if [[ "$CPU" =~ "aarch64" ]]; then
+if [[ "$CPU" =~ "arm64" ]]; then
   S=_arm
   url=https://github.com/xiiapp/xii/raw/main/release/xii_mac_arm.zip
 elif  [[ "$CPU" =~ "x86_64" ]]; then
